@@ -5,6 +5,14 @@
   "version": "0.0.1",
   "publisher": "fb-pd",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/youpd/CCN.git"
+  },
+  "bugs": {
+    "url": "https://github.com/youpd/CCN/issues"
+  },
+  "homepage": "https://github.com/youpd/CCN#readme",
   "engines": {
     "vscode": "^1.85.0"
   },

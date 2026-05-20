@@ -1,7 +1,48 @@
+# Dependencies & build
 node_modules/
+out/
+dist/
+build/
+coverage/
+.nyc_output/
+
+# Extension packaging artifacts
 *.vsix
+
+# Editor / OS metadata
 .vscode-test/
+.idea/
 .DS_Store
-.omc/
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Secrets & credentials (절대 commit 금지)
+.env
+.env.*
+*.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+credentials/
+.credentials.json
+*.secret
+
+# Local tool state (사용자 머신 한정)
 .claude/
+.omc/
+.codex/
+
 
